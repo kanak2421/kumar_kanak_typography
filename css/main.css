@@ -1,0 +1,63 @@
+body {
+  font-family: 'arial', 'helvetica', sans-serif;
+  font-size: 16px;
+
+  padding: 10px;
+}
+
+.hidden { display: none; }
+
+main > h1 { margin: 10px 0 10px 10px;  font-size: 4em; font-weight: bolder; color: green; text-align: center;}
+
+p { margin-bottom: 6.5em; line-height: 1; font-family: 'Cormorant Garamond', serif;; font-size: 1.5em; text-align: left;
+font-style: normal; color: purple; }
+
+h1 + p::first-line { font-size: 1.25em; font-style: italic; }
+
+h1 + p::first-letter { font-style: normal ;
+  font-size: 2em;
+  float: left;
+  margin-right: 8px;
+}
+img{ width: 100%; }
+
+.image1{
+  width: 50%;
+  margin: 1em;
+}
+
+.image2{
+  width: 50%;
+  margin: 1em;
+}
+
+h2:first-of-type {font-family: 'Amatic SC', cursive; font-weight: bold; width: 100%; text-align: center; font-size: 3em;
+   font-style: normal; color: Red;
+ }
+
+.image3{
+  width:50%;
+  margin: 1em;
+}
+
+h3:first-of-type {font-family: 'Amatic SC', cursive; font-weight: bold; width: 100%; text-align: center; font-size: 3em;
+font-style: normal; color: Red;
+}
+
+.image4{
+  width:50%;
+  margin: 1em;
+}
+
+h4:first-of-type {font-family: 'Amatic SC', cursive; font-weight: bold; width: 100%; text-align: center; font-size: 3em;
+font-style: normal; color: Red;
+}
+
+.image5{
+  width:50%;
+  margin: 1em;
+}
+
+h5:first-of-type {font-family: 'Amatic SC', cursive; font-weight: bold; width: 100%; text-align: center; font-size: 3em;
+font-style: normal; color: Red;
+}
